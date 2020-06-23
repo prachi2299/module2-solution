@@ -54,26 +54,25 @@ h1 {
 }
 
 .name1{
-  background-color: #FFB6C1;
+  background-color: pink;
 }
 
 .name2{
   color: white;
-  background-color: #FF0000;
+  background-color: red;
 }
 .name3{
-  background-color: #FFFF00;
+  background-color: yellow;
 }
 
 
-/********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-4 {
   	float: left;
     width: 33.33%;
   }
 }
-/********** Medium devices only **********/
+
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6,.col-md-12 {
     float: left;
